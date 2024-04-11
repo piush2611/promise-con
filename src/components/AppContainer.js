@@ -88,7 +88,7 @@ const AppContainer = () => {
           <div className="hidden md:block text-gray mx-2">
             Made with 💙 By Piyush
           </div>
-          <a className="my-4 font-bold" href="">
+          <a className="my-4 font-bold" href="https://github.com/piush2611/promise-con">
             Github
           </a>
         </div>
@@ -99,6 +99,7 @@ const AppContainer = () => {
           setPromiseType(e.target.value);
           setResult("");
           setProgressSteps([]);
+          setProgress(0);
         }}
         value={promiseType}
         disabled={disable}
